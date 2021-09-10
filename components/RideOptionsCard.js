@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, Text, View, SafeAreaView, TouchableOpacity } from 'react-native'
+import { StyleSheet, Text, View, SafeAreaView, TouchableOpacity, FlatList } from 'react-native'
 import tw from 'tailwind-react-native-classnames'
 import { Icon } from 'react-native-elements/dist/icons/Icon'
 import { useNavigation } from '@react-navigation/native'
@@ -16,6 +16,7 @@ const RideOptionsCard = () => {
                 </TouchableOpacity>
                 <Text style={tw `text-center py-5 text-xl`}>Select a Ride</Text>
             </View>
+
         </SafeAreaView>
     )
 }
